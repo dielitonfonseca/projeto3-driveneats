@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+    rel="stylesheet"
+    />
+    
+    <title>DrivenEats</title>
+</head>
+    <body>
+        <header>
+            <h1 class="titulo">DrivenEats</h1>
+            <p>Sua comida em 6 minutos</p>
+        </header>  
+        <section class="conteudo">
+                <div class="prato-principal-container" data-identifier="dishes">
+                <h2>Primeiro, seu prato</h2>
+                <div class="pratos-container prato-sessao">
+                    <div class="opcao-card almoco" data-identifier="food-option" onclick="select(this)">
+                        <img
+                            class="almoco-imagem"
+                            src="assets\frango-yingyang.png"
+                            alt=""
+                        />
+                        <p class="almoco" data-identifier="food-title">Frango Yin Yang</p>
+                        <p class="subtitulo">Um pouco de batata, um pouco de salada</p>
+                        <footer>
+                            <p class="valor" data-identifier="food-price">R$ 14,90</p>
+                            <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                        </footer>
+                        </div>
+                        <div class="opcao-card almoco" data-identifier="food-option" onclick="select(this)">
+                            <img
+                                class="almoco-imagem"
+                                src="assets\frango-yingyang.png"
+                                alt=""
+                            />
+                            <p class="almoco" data-identifier="food-title">Frango Yin Yang</p>
+                            <p class="subtitulo">Um pouco de batata, um pouco de salada</p>
+                            <footer>
+                                <p class="valor" data-identifier="food-price">R$ 14,90</p>
+                                <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                            </footer>
+                            </div>
+                        <div class="opcao-card almoco" data-identifier="food-option" onclick="select(this)">
+                            <img
+                                class="almoco-imagem"
+                                src="assets\frango-yingyang.png"
+                                alt=""
+                            />
+                            <p class="almoco" data-identifier="food-title">Frango Yin Yang</p>
+                            <p class="subtitulo">Um pouco de batata, um pouco de salada</p>
+                            <footer>
+                                <p class="valor" data-identifier="food-price">R$ 14,90</p>
+                                <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                            </footer>
+                            </div>
+                            <div class="opcao-card almoco" data-identifier="food-option" onclick="select(this)">
+                                <img
+                                    class="almoco-imagem"
+                                    src="assets\frango-yingyang.png"
+                                    alt=""
+                                />
+                                <p class="almoco" data-identifier="food-title">Frango Yin Yang</p>
+                                <p class="subtitulo">Um pouco de batata, um pouco de salada</p>
+                                <footer>
+                                    <p class="valor" data-identifier="food-price">R$ 14,90</p>
+                                    <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                </footer>
+                                </div>
+                                <div class="opcao-card almoco" data-identifier="food-option" onclick="select(this)">
+                                    <img
+                                        class="almoco-imagem"
+                                        src="assets\frango-yingyang.png"
+                                        alt=""
+                                    />
+                                    <p class="almoco" data-identifier="food-title">Frango Yin Yang</p>
+                                    <p class="subtitulo">Um pouco de batata, um pouco de salada</p>
+                                    <footer>
+                                        <p class="valor" data-identifier="food-price">R$ 14,90</p>
+                                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                    </footer>
+                                    </div>
+                                    <div class="opcao-card almoco" onclick="select(this)">
+                                        <img
+                                            class="almoco-imagem"
+                                            src="assets\frango-yingyang.png"
+                                            alt=""
+                                        />
+                                        <p class="almoco" data-identifier="food-title">Frango Yin Yang</p>
+                                        <p class="subtitulo">Um pouco de batata, um pouco de salada</p>
+                                        <footer>
+                                            <p class="valor" data-identifier="food-price">R$ 14,90</p>
+                                            <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                        </footer>
+                                        </div>
+                    </div>
+                </div>
+                <!-- Bebida -->
+                <div class="bebida-container" data-identifier="drinks">
+                    <h2>Agora, sua bebida</h2>
+                    <div class="pratos-container drink-sessao">
+                        <div class="opcao-card bebida" data-identifier="food-option" onclick="select(this)">
+                            <img
+                                class="bebida-imagem"
+                                src="assets\coquinha-gelada.png"
+                                alt=""
+                            />
+                            <p class="bebida" data-identifier="food-title">Coquinha Gelada</p>
+                            <p class="subtitulo">Lata 350ml</p>
+                            <footer>
+                                <p class="valor" data-identifier="food-price">R$ 4,90</p>
+                                <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                            </footer>
+                            </div>
+                        <div class="opcao-card bebida" data-identifier="food-option" onclick="select(this)">
+                            <img
+                                class="bebida-imagem"
+                                src="assets\coquinha-gelada.png"
+                                alt=""
+                            />
+                            <p class="bebida" data-identifier="food-title">Coquinha Gelada</p>
+                            <p class="subtitulo">Lata 350ml</p>
+                            <footer>
+                                <p class="valor" data-identifier="food-price">R$ 4,90</p>
+                                <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                            </footer>
+                            </div>
+                            <div class="opcao-card bebida" data-identifier="food-option" onclick="select(this)">
+                                <img
+                                    class="bebida-imagem"
+                                    src="assets\coquinha-gelada.png"
+                                    alt=""
+                                />
+                                <p class="bebida" data-identifier="food-title">Coquinha Gelada</p>
+                                <p class="subtitulo">Lata 350ml</p>
+                                <footer>
+                                    <p class="valor" data-identifier="food-price">R$ 4,90</p>
+                                    <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                </footer>
+                                </div>
+                                <div class="opcao-card bebida" data-identifier="food-option" onclick="select(this)">
+                                    <img
+                                        class="bebida-imagem"
+                                        src="assets\coquinha-gelada.png"
+                                        alt=""
+                                    />
+                                    <p class="bebida" data-identifier="food-title">Coquinha Gelada</p>
+                                    <p class="subtitulo">Lata 350ml</p>
+                                    <footer>
+                                        <p class="valor" data-identifier="food-price">R$ 4,90</p>
+                                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                    </footer>
+                                    </div>
+                                    <div class="opcao-card bebida" data-identifier="food-option" onclick="select(this)">
+                                        <img
+                                            class="bebida-imagem"
+                                            src="assets\coquinha-gelada.png"
+                                            alt=""
+                                        />
+                                        <p class="bebida" data-identifier="food-title">Coquinha Gelada</p>
+                                        <p class="subtitulo">Lata 350ml</p>
+                                        <footer>
+                                            <p class="valor" data-identifier="food-price">R$ 4,90</p>
+                                            <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                        </footer>
+                                        </div>
+                                        <div class="opcao-card bebida" data-identifier="food-option" onclick="select(this)">
+                                            <img
+                                                class="bebida-imagem"
+                                                src="assets\coquinha-gelada.png"
+                                                alt=""
+                                            />
+                                            <p class="bebida" data-identifier="food-title">Coquinha Gelada</p>
+                                            <p class="subtitulo">Lata 350ml</p>
+                                            <footer>
+                                                <p class="valor" data-identifier="food-price">R$ 4,90</p>
+                                                <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                            </footer>
+                                            </div>
+                        </div>
+                    </div>
+                <!-- Sobremesa -->
+                <div class="sobremesa-container" data-identifier="desserts">
+                    <h2>Por fim, sua sobremesa</h2>
+                    <div class="pratos-container sobremesa-sessao">
+                        <div class="opcao-card sobremesa" data-identifier="food-option" onclick="select(this)">
+                        <img
+                            class="sobremesa-imagem"
+                            src="assets\pudim.png"
+                            alt=""
+                        />
+                        <p class="sobremesa" data-identifier="food-title">Pudim</p>
+                        <p class="subtitulo">Apenas pudim</p>
+                        <footer>
+                            <p class="valor" data-identifier="food-price">R$ 7,90</p>
+                            <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                        </footer>
+                        </div>
+                        <div class="opcao-card sobremesa" data-identifier="food-option" onclick="select(this)">
+                            <img
+                                class="sobremesa-imagem"
+                                src="assets\pudim.png"
+                                alt=""
+                            />
+                            <p class="sobremesa" data-identifier="food-title">Pudim</p>
+                            <p class="subtitulo">Apenas pudim</p>
+                            <footer>
+                                <p class="valor" data-identifier="food-price">R$ 7,90</p>
+                                <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                            </footer>
+                            </div>
+                            <div class="opcao-card sobremesa" data-identifier="food-option" onclick="select(this)">
+                                <img
+                                    class="sobremesa-imagem"
+                                    src="assets\pudim.png"
+                                    alt=""
+                                />
+                                <p class="sobremesa" data-identifier="food-title">Pudim</p>
+                                <p class="subtitulo">Apenas pudim</p>
+                                <footer>
+                                    <p class="valor" data-identifier="food-price">R$ 7,90</p>
+                                    <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                </footer>
+                                </div>
+                                <div class="opcao-card sobremesa" data-identifier="food-option" onclick="select(this)">
+                                    <img
+                                        class="sobremesa-imagem"
+                                        src="assets\pudim.png"
+                                        alt=""
+                                    />
+                                    <p class="sobremesa" data-identifier="food-title">Pudim</p>
+                                    <p class="subtitulo">Apenas pudim</p>
+                                    <footer>
+                                        <p class="valor" data-identifier="food-price">R$ 7,90</p>
+                                        <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                    </footer>
+                                    </div>
+                                    <div class="opcao-card sobremesa" data-identifier="food-option" onclick="select(this)">
+                                        <img
+                                            class="sobremesa-imagem"
+                                            src="assets\pudim.png"
+                                            alt=""
+                                        />
+                                        <p class="sobremesa" data-identifier="food-title">Pudim</p>
+                                        <p class="subtitulo">Apenas pudim</p>
+                                        <footer>
+                                            <p class="valor" data-identifier="food-price">R$ 7,90</p>
+                                            <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                        </footer>
+                                        </div>
+                                        <div class="opcao-card sobremesa" data-identifier="food-option" onclick="select(this)">
+                                            <img
+                                                class="sobremesa-imagem"
+                                                src="assets\pudim.png"
+                                                alt=""
+                                            />
+                                            <p class="sobremesa" data-identifier="food-title">Pudim</p>
+                                            <p class="subtitulo">Apenas pudim</p>
+                                            <footer>
+                                                <p class="valor" data-identifier="food-price">R$ 7,90</p>
+                                                <ion-icon class="icon-check" name="checkmark-circle"></ion-icon>
+                                            </footer>
+                                            </div>
+                        </div>
+                    </div>
+            </section>
+            <footer class="barra-container">
+                <button disabled class="botao-encerrar" onclick="fechar()">
+                Selecione os 3 itens<br />
+                para fechar o pedido
+                </button>
+                
+            </footer>
+            <script type="text/javascript" src="index.js"></script>
+            <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+            
+    </body>
+</html>
